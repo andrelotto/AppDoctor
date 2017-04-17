@@ -12,13 +12,13 @@ import {
   View
 } from 'react-native';
 
-import Login from './src/pages/Login';
+import Label from './src/pages/Label';
 
 
 export default class AppFarmacia extends Component {
   render() {
     return (
-      <Login />
+      <Label />
     );
   }
 }

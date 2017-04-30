@@ -15,7 +15,7 @@ import {
 import Label from './src/pages/Label';
 
 
-export default class AppFarmacia extends Component {
+export default class AppDoctor extends Component {
   render() {
     return (
       <Label />
@@ -42,4 +42,4 @@ const styles = StyleSheet.create({
   },
 });
 
-AppRegistry.registerComponent('AppFarmacia', () => AppFarmacia);
+AppRegistry.registerComponent('AppDoctor', () => AppDoctor);

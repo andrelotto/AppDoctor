@@ -1,2 +1,2 @@
-# AppFarmacia
-Aplicativo para Android com tela de LOGIN e cadastrar/buscar produtos
+# AppDoctor
+Aplicativo para gerir atendimento em uma clinica

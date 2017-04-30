@@ -1,4 +1,9 @@
 # AppDoctor
   Aplicativo para gerir atendimento em uma clinica
   versao 1.0
-  ![alt text](https://github.com/alexjosesilva/AppDoctor/blob/master/src/img/telaDoctor2.jpg?raw=true)
+
+<p align="center">
+  <img src="https://github.com/alexjosesilva/AppDoctor/blob/master/src/img/telaDoctor2.jpg?raw=true" width="350"/>
+</p>
+
+  

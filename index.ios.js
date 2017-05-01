@@ -12,7 +12,7 @@ import {
   View
 } from 'react-native';
 
-export default class AppFarmacia extends Component {
+export default class appDoctor extends Component {
   render() {
     return (
       <View style={styles.container}>
@@ -50,4 +50,4 @@ const styles = StyleSheet.create({
   },
 });
 
-AppRegistry.registerComponent('AppFarmacia', () => AppFarmacia);
+AppRegistry.registerComponent('appDoctor', () => appDoctor);

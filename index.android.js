@@ -1,7 +1,5 @@
 /**
- * Sample React Native App
- * https://github.com/facebook/react-native
- * @flow
+ * Tela index
  */
 
 import React, { Component } from 'react';
@@ -9,37 +7,37 @@ import {
   AppRegistry,
   StyleSheet,
   Text,
-  View
+  View,
+  TextInput,
+  Image,
+  TouchableOpacity,
+  Alert
 } from 'react-native';
 
-import Label from './src/pages/Label';
 
 
-export default class AppDoctor extends Component {
+import LoginTela from "./src/pages/telaLogin";
+import HomeTela from "./src/pages/telaHome";
+import AdmTela from "./src/pages/telaAdm";
+
+
+export default class appDoctor extends Component {
+
   render() {
     return (
-      <Label />
+
+          <View style={styles.container}>
+              <HomeTela />
+          </View>
     );
   }
 }
 
 const styles = StyleSheet.create({
   container: {
-    flex: 1,
-    justifyContent: 'center',
-    alignItems: 'center',
-    backgroundColor: '#F5FCFF',
-  },
-  welcome: {
-    fontSize: 20,
-    textAlign: 'center',
-    margin: 10,
-  },
-  instructions: {
-    textAlign: 'center',
-    color: '#333333',
-    marginBottom: 5,
-  },
+    flex: 1
+  }
 });
 
-AppRegistry.registerComponent('AppDoctor', () => AppDoctor);
+ 
+AppRegistry.registerComponent('appDoctor', () => appDoctor);
